@@ -1,3 +1,59 @@
+* {
+  margin: 0px;
+  letter-spacing: 1px;
+  box-sizing: border-box;
+}
+
+body {
+  box-sizing: border-box;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+}
+
 .App {
   text-align: center;
+  background-image: url(./images/background.png);
+  background-size: cover;
+  font-family: monospace;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.Header {
+  color: white;
+  font-size: 2em;
+  text-decoration: underline solid 1px slategray;
+  width: 100%;
+  padding: 50px;
+}
+
+.SolarSystem {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  color: white;
+  font-size: 2em;
+}
+
+.PlanetCard {
+  margin-bottom: 50px;
+  transition: transform .2s ease;
+}
+
+.PlanetCard img:hover {
+  width: 500px;
+}
+
+.Title {
+  width: 100%;
+  padding: 50px;
+}
+
+.Missions {
+  color: white;
+}
+
+.MissionCard {
 }
