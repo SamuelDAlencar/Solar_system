@@ -1,6 +1,10 @@
 
 # Solar System
 
+Page made using react that displays planets from our solar system.
+
+Project made during the fundamentals module at Trybe.
+
 # Skills put into practice 👨‍💻
 
 *  Use JSX in React
